@@ -1,0 +1,90 @@
+:root {
+    --roboto:font-family: 'Roboto', sans-serif;
+    --raleway:font-family: 'Raleway', sans-serif;
+    color:#212121
+  }
+  body { font-family: 'Roboto', sans-serif;
+var(--#212121)}
+  
+  nav {
+    color: var(--#212121);
+  }
+  nav ul {
+    text-decoration-line: none;
+  }
+  
+  ul {
+    text-decoration-line: none;
+    color: black;
+  }
+  a {
+    color: black;
+    text-decoration-line: none;
+  }
+  a:focus {
+    border-bottom-style: solid;
+    border-width: 2px;
+    border-color: blue;
+  }
+  h3 {
+    font-family: var(--roboto);
+    font-weight: 700;
+  }
+  
+  h3:hover {
+    border-bottom-style: solid;
+    border-width: 2px;
+    border-bottom-color: blue;
+  }
+  p {font-family: var(--roboto);
+  font-weight: 400;}
+  
+  p:hover {
+    border-bottom-style: solid;
+    border-width: 2px;
+    border-bottom-color: blue;
+    font-family: var(--roboto);
+  }
+  
+  .logo {
+    color: blue;
+    font-family: var(--raleway);
+    font-weight: 700;
+  }
+  nav li:hover {
+    border-bottom-style: solid;
+    border-width: 2px;
+    border-bottom-color: blue;
+   
+  }
+  header li:hover {
+    border-bottom-style: solid;
+    border-width: 2px;
+    border-bottom-color: blue;
+  }
+  
+  .footer_underline {
+    text-decoration-line: underline;
+  }
+  footer li:hover {
+    border-bottom-style: solid;
+    border-width: 2px;
+    border-bottom-color: blue;
+  }
+  .mark:hover {
+    border: 1px solid blue;
+  }
+  .mark_line:hover {
+    border-bottom-style: solid;
+    border-width: 2px;
+    border-bottom-color: blue;
+  }
+  
+  .hand:hover {
+    cursor: pointer;
+  }
+  
+  .letters {
+    font-family: var(--roboto);
+    font-weight: 500;
+  }
