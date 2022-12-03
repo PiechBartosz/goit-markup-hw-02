@@ -4,7 +4,8 @@
     color:#212121
   }
   body { font-family: 'Roboto', sans-serif;
-var(--#212121)}
+    color: var(--#212121)
+}
   
   nav {
     color: var(--#212121);
