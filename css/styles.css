@@ -1,91 +1,117 @@
 :root {
-    --roboto:font-family: 'Roboto', sans-serif;
-    --raleway:font-family: 'Raleway', sans-serif;
-    color:#212121
-  }
-  body { font-family: 'Roboto', sans-serif;
-    color: var(--#212121)
+  --main-color: #212121;
+  --second-color: #757575;
+  --background-color: #2f303a;
+  --third-color: #ffffff;
 }
-  
-  nav {
-    color: var(--#212121);
-  }
-  nav ul {
-    text-decoration-line: none;
-  }
-  
-  ul {
-    text-decoration-line: none;
-    color: black;
-  }
-  a {
-    color: black;
-    text-decoration-line: none;
-  }
-  a:focus {
-    border-bottom-style: solid;
-    border-width: 2px;
-    border-color: blue;
-  }
-  h3 {
-    font-family: var(--roboto);
-    font-weight: 700;
-  }
-  
-  h3:hover {
-    border-bottom-style: solid;
-    border-width: 2px;
-    border-bottom-color: blue;
-  }
-  p {font-family: var(--roboto);
-  font-weight: 400;}
-  
-  p:hover {
-    border-bottom-style: solid;
-    border-width: 2px;
-    border-bottom-color: blue;
-    font-family: var(--roboto);
-  }
-  
-  .logo {
-    color: blue;
-    font-family: var(--raleway);
-    font-weight: 700;
-  }
-  nav li:hover {
-    border-bottom-style: solid;
-    border-width: 2px;
-    border-bottom-color: blue;
-   
-  }
-  header li:hover {
-    border-bottom-style: solid;
-    border-width: 2px;
-    border-bottom-color: blue;
-  }
-  
-  .footer_underline {
-    text-decoration-line: underline;
-  }
-  footer li:hover {
-    border-bottom-style: solid;
-    border-width: 2px;
-    border-bottom-color: blue;
-  }
-  .mark:hover {
-    border: 1px solid blue;
-  }
-  .mark_line:hover {
-    border-bottom-style: solid;
-    border-width: 2px;
-    border-bottom-color: blue;
-  }
-  
-  .hand:hover {
-    cursor: pointer;
-  }
-  
-  .letters {
-    font-family: var(--roboto);
-    font-weight: 500;
-  }
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+.nav-structure {
+  color: var(--main-color);
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.main-structure {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.third-structure {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--second-color);
+}
+
+.background {
+  background-color: var(--background-color);
+}
+
+/* ? */
+.last-structure {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--third-color);
+}
+
+/* na dole do poprawy */
+ul {
+  text-decoration-line: none;
+  color: black;
+}
+a {
+  color: black;
+  text-decoration-line: none;
+}
+a:focus {
+  border-bottom-style: solid;
+  border-width: 2px;
+  border-color: blue;
+}
+h3 {
+  font-family: var(--roboto);
+  font-weight: 700;
+}
+
+p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.logo {
+  color: blue;
+  font-family: var(--raleway);
+  font-weight: 700;
+}
+nav li:hover {
+  border-bottom-style: solid;
+  border-width: 2px;
+  border-bottom-color: blue;
+}
+header li:hover {
+  border-bottom-style: solid;
+  border-width: 2px;
+  border-bottom-color: blue;
+}
+
+.mark:hover {
+  border: 1px solid blue;
+}
+.mark_line:hover {
+  border-bottom-style: solid;
+  border-width: 2px;
+  border-bottom-color: blue;
+}
+
+.hand:hover {
+  cursor: pointer;
+}
+
+.letters {
+  font-family: var(--roboto);
+  font-weight: 500;
+}
+/*  */
+font-family: "Raleway", sans-serif;
+/*  */
