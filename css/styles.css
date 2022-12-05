@@ -3,10 +3,12 @@
   --second-color: #757575;
   --background-color: #2f303a;
   --third-color: #ffffff;
+  --fourth-color: rgba(255, 255, 255, 0.6);
+  --fifth-color: #2196f3;
 }
 body {
   font-family: "Roboto", sans-serif;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .nav-structure {
@@ -16,6 +18,12 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+}
+.nav-structure:hover {
+  color: var(--fifth-color);
+}
+.nav-structure:focus {
+  color: var(--fifth-color);
 }
 .main-structure {
   font-family: "Roboto", sans-serif;
@@ -45,13 +53,45 @@ body {
   background-color: var(--background-color);
 }
 
-/* ????????????????????????????? */
-.last-structure {
+.fourth-structure {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--third-color);
+}
+.fifth-structure {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-decoration-line: underline;
+  color: var(--fourth-color);
+}
+
+.list-style {
+  list-style: none;
+}
+.logo {
+  color: var(--main-color);
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.brand-color {
+  color: var(--fifth-color);
+}
+.footer-logo {
+  color: var(--third-color);
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
 }
 
 /* na dole do poprawy */
@@ -79,12 +119,7 @@ p {
   line-height: 30px;
 }
 
-.logo {
-  color: blue;
-  font-family: var(--raleway);
-  font-weight: 700;
-}
-nav li:hover {
+/* nav li:hover {
   border-bottom-style: solid;
   border-width: 2px;
   border-bottom-color: blue;
@@ -102,7 +137,7 @@ header li:hover {
   border-bottom-style: solid;
   border-width: 2px;
   border-bottom-color: blue;
-}
+} */
 
 .hand:hover {
   cursor: pointer;
@@ -112,6 +147,6 @@ header li:hover {
   font-family: var(--roboto);
   font-weight: 500; */
 
-/*  */
+/* /*  *
 font-family: "Raleway", sans-serif;
-/*  */
+/*   */
