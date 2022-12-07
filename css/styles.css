@@ -34,6 +34,15 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
+
+.second-structure {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--fourth-color);
+  text-decoration-line: none;
+}
 .third-structure {
   font-weight: 700;
   font-size: 18px;
@@ -59,6 +68,7 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--third-color);
+  text-decoration-line: none;
 }
 .fifth-structure {
   font-size: 14px;
@@ -93,9 +103,28 @@ body {
   letter-spacing: 0.03em;
   text-decoration: none;
 }
+.hand:hover {
+  cursor: pointer;
+}
+.button-style {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
+  cursor: pointer;
+}
+.button-style:hover,
+.button-style:focus,
+.button-style:active {
+  background-color: var(--fifth-color);
+  color: var(--third-color);
+}
 
 /* na dole do poprawy */
-ul {
+/* ul {
   text-decoration-line: none;
   color: black;
 }
@@ -116,8 +145,7 @@ h3 {
 p {
   font-weight: 400;
   font-size: 16px;
-  line-height: 30px;
-}
+  line-height: 30px; */
 
 /* nav li:hover {
   border-bottom-style: solid;
@@ -138,10 +166,6 @@ header li:hover {
   border-width: 2px;
   border-bottom-color: blue;
 } */
-
-.hand:hover {
-  cursor: pointer;
-}
 
 /* /* .letters {
   font-family: var(--roboto);
