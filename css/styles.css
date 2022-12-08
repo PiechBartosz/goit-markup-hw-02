@@ -101,14 +101,12 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
-  /* text-align: center; */
   letter-spacing: 0.03em;
 }
 .ninth-structure {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
-  /* text-align: center; */
   letter-spacing: 0.03em;
   color: var(--main-color);
 }
