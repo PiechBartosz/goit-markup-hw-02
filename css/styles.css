@@ -26,14 +26,6 @@ body {
 .nav-structure:focus {
   color: var(--fifth-color);
 }
-.main-structure {
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-}
 
 .second-structure {
   font-weight: 400;
@@ -114,6 +106,7 @@ body {
   list-style: none;
 }
 .logo {
+  font-family: "Raleway";
   color: var(--main-color);
   font-weight: 700;
   font-size: 26px;
